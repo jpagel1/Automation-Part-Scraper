@@ -217,7 +217,7 @@ def ScrapeDatatoCSV():
 
 if __name__ == '__main__':
     
-    #First Grab New Automation Direct Items.csv List
+    #First Grab New AutomationItems.csv
     success = googs.downloadADcsv()
     
     #If no issues grabbing latest data. otherwise just end
