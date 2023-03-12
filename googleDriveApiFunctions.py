@@ -13,7 +13,7 @@ def downloadADcsv():
     
     try:
         sheets = Sheets.from_files('client_secrets.json','storage.json')
-        s=sheets['1TEzt8rlrxj1ooXn1sGQ3LKgcezShuF8E5KmwEEAn4ts']
+        s=sheets['SheetID']
         csv_name = "AutomationItemsRequested.csv"
         s.to_csv(make_filename=csv_name)
         
