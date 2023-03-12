@@ -2,6 +2,7 @@
 
 Simple script to automatically load in google sheet with automation part numbers and scrape sites to get stock/availability info
 
+DISCLAIMER: This project was built for educational purposes. DO NOT use it to spam automation vender sites. 
 
 An example of what the google sheet could look like is below:
 
